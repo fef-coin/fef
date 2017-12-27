@@ -101,7 +101,7 @@ public:
         assert(hashGenesisBlock == uint256("0x037c7370c073400be6d0365119e783031f10f5821c31943a3f2987cf066ee515"));
         assert(genesis.hashMerkleRoot == uint256("0x70f2a8e539224fd7e4dbf668a21fbb9ad0eef52c07c93b2a953107e6b3b24bb9s"));
 //添加dnsseed
-        char *seeds[][2] = {};
+        char *seeds[][2] = {"13.115.71.125","13.115.71.125","13.115.71.236","13.115.71.236"};
 //        char *seeds[][2] = {};
         for(size_t i = 0;i<sizeof(seeds)/sizeof(char*)/2;i++)
         {
