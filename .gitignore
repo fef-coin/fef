@@ -1,11 +1,9 @@
 src/*.zip
+FEF/*
 *.pro.user
 .qmake.stash
-src/whcd
 *.app
 src/fefd
-DC.app
-DC.dmg
 build
 src/qt/locale/*.qm
 src/leveldb/util/*.o
@@ -18,7 +16,6 @@ src/qt/res/.DS_Store
 src/run/
 src/run1/
 src/run2/
-src/yhcd
 src/leveldb/helpers/memenv/*.o
 src/leveldb/port/*.o
 src/leveldb/build_config.mk
@@ -26,7 +23,5 @@ src/.DS_Store
 .DS_Store
 Makefile
 qrc_bitcoin.cpp
-YHC.app
-src/klcd
 FEF.dmg
 FEF.dmg.zip
